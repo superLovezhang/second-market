@@ -12,9 +12,9 @@ import java.util.UUID;
 
 public class OssUtil {
 
-    private static String endpoint = "oss-cn-shenzhen.aliyuncs.com";
-    private static String accessKeyId = "LTAI4G2b985TeaMiNUW5nQdR";
-    private static String accessKeySecret = "9Tu68NIjNl5Xcy3SvT2I6i1wFUyS7F";
+    private static String endpoint = "你自己的";
+    private static String accessKeyId = "你自己的";
+    private static String accessKeySecret = "你自己的";
     private static String bucketName = "edu-teachers";
 
     public static String upload(MultipartFile file) throws Exception {
